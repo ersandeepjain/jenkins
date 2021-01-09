@@ -1,0 +1,13 @@
+node ('windows-slave') {
+	stage('checkout') {
+	
+	}
+	stage('Build') {
+	
+	}
+	stage('Test') {
+	
+	}
+
+
+}
