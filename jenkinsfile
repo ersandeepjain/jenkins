@@ -1,0 +1,14 @@
+node ('master') {
+	stage('checkout') {
+	echo "first pile line - Checkout"	
+	sh label:'', script: 'ls -lart'
+	}
+
+	stage('Build') {
+	
+	}
+
+	stage('Test') {
+	
+	}
+}
